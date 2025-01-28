@@ -6,5 +6,7 @@ class Application():
     
     def show_name(self):
         print(self.name)
+    def show_info(self):
+        print(self.width,self.height)
 
 app = Application("app1")
